@@ -29,7 +29,7 @@ def convertchar(entry):
 def convertlist(testlist):
     return int(convertchar(testlist[0]) + convertchar(testlist[-1]))
 
-with open('path/to/data.txt') as input:
+with open('Desktop/input1.txt') as input:
     contents = input.read().split('\n')[:-1] # The last list is empty so sliced off
     sum = 0
     for i in range(len(contents)):
